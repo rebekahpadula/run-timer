@@ -1,0 +1,25 @@
+{
+  "name": "march1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp node_modules/normalize.css/normalize.css src/scss/_normalize.scss",
+    "watch:css": "sass --watch src/scss:build/css",
+    "build": "npm run build:js && npm run build:css",
+    "watch": "npm run watch:js & npm run watch:css",
+    "watch:js": "watchify src/js/main.js -o build/bundle.js",
+    "build:js": "browserify src/js/main.js -o build/bundle.js",
+    "build:css": "sass src/scss/main.scss build/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "backbone": "^1.3.2",
+    "browserify": "^13.0.0",
+    "jquery": "^2.2.2",
+    "normalize.css": "^3.0.3",
+    "watchify": "^3.7.0"
+  }
+}
