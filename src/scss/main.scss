@@ -1,6 +1,28 @@
 @import 'normalize';
 @import 'vars';
+@import 'components/header';
+@import 'components/createView';
+@import 'components/addButton';
+@import 'components/detailsView';
 
 *, *:before, *:after {
     box-sizing: border-box;
 }
+
+body {
+    background: $background-gray;
+    font-family: $main-font;
+    width: 100%;
+    margin: 0, auto;
+}
+
+#app-container {
+    position: relative;
+}
+
+.header-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+

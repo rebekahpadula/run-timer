@@ -1,0 +1,27 @@
+@import 'vars';
+
+.go-back {
+    border: none;
+    border-radius: 50%;
+    background: #ddd;
+    color: $button-text-gray;
+    position: absolute;
+    bottom: -400px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 3px 3px 5px #0e1717;
+}
+
+.details-create {
+    border: none;
+    border-radius: 50%;
+    background: $light-green;
+    color: white;
+    position: absolute;
+    bottom: -400px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 3px 3px 5px #0e1717;
+}

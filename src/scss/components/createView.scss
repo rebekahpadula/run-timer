@@ -1,0 +1,44 @@
+@import 'vars';
+
+input, textarea {
+    display: block;
+    background: $background-gray;
+    border: none;
+    color: white;
+    padding-left: 20px;
+    line-height: 50px;
+    margin: 10px 0;
+    line-height: 50px;
+
+}
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+    color: $placeholder;
+}
+
+hr {
+    border-color: $placeholder;
+    color: $placeholder;
+}
+
+#cancel {
+    border: none;
+    height: 30px;
+    width: 70px;
+    background: #ddd;
+    color: $button-text-gray;
+    box-shadow: 3px 2px 5px $shadow-gray;
+}
+
+#save {
+    border: none;
+    height: 30px;
+    width: 70px;
+    background: $light-green;
+    color: $button-text-gray;
+    box-shadow: 3px 2px 5px $shadow-gray;
+    float: right;
+}

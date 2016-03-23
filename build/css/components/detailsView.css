@@ -1,0 +1,25 @@
+.go-back {
+  border: none;
+  border-radius: 50%;
+  background: #ddd;
+  color: #1c1c1c;
+  position: absolute;
+  bottom: -400px;
+  left: 20px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 3px 3px 5px #0e1717; }
+
+.details-create {
+  border: none;
+  border-radius: 50%;
+  background: #80cbc4;
+  color: white;
+  position: absolute;
+  bottom: -400px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 3px 3px 5px #0e1717; }
+
+/*# sourceMappingURL=detailsView.css.map */
